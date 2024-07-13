@@ -6,95 +6,142 @@
     <meta name="description" content="Explore the latest electric vehicle cars in Cebu. Discover the best deals and compare models including the BYD Atto 3 and Wuling Game Boy.">
     <meta name="keywords" content="EV cars Cebu, Electric Vehicle Cars Near Cebu, BYD Atto 3, Wuling Game Boy, electric cars, EV Cebu, buy electric car Cebu, EV deals Cebu">
     <title>Electric Vehicle Cars in Cebu | Compare BYD Atto 3 and Wuling Game Boy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
-        }
-
-        header {
-            background-color: #4cafaf;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-
-        main {
-            padding: 2em;
-        }
-
-        section {
-            margin-bottom: 2em;
-        }
-
-        h1, h2 {
+            background-color: #f4f4f4;
             color: #333;
         }
 
+        header {
+            background: linear-gradient(90deg, rgba(20, 20, 20, 0.9), rgba(50, 50, 50, 0.9)), url('images/luxury-car-background.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 3em;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 0.5em 0 0;
+        }
+
+        main {
+            padding: 2em 5%;
+        }
+
+        section {
+            margin-bottom: 3em;
+        }
+
+        h2 {
+            color: #333;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            border-bottom: 2px solid #777;
+            display: inline-block;
+            padding-bottom: 0.3em;
+        }
+
         h3 {
-            color: #1a59bf;
+            color: #555;
+            font-size: 1.8em;
         }
 
         .model {
             background-color: white;
-            padding: 1em;
-            margin-bottom: 1em;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 2em;
+            margin-bottom: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .model:hover {
+            transform: translateY(-10px);
         }
 
         .model img {
             max-width: 100%;
             height: auto;
+            border-radius: 10px;
+            margin-bottom: 1em;
+        }
+
+        .model ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .model li {
+            padding: 0.5em 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .model li:last-child {
+            border-bottom: none;
         }
 
         form {
-            display: flex;
-            flex-direction: column;
+            background-color: white;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
         }
 
         form label {
-            margin-top: 0.5em;
+            margin-top: 1em;
+            font-weight: bold;
         }
 
         form input, form textarea {
-            padding: 0.5em;
-            margin-top: 0.2em;
-            border: 1px solid #ccc;
+            width: 100%;
+            padding: 0.7em;
+            margin-top: 0.5em;
+            border: 1px solid #ced4da;
             border-radius: 5px;
+            font-size: 1em;
         }
 
         form button {
             margin-top: 1em;
             padding: 0.7em;
-            background-color: #a91d1d;
+            background-color: #333;
             color: white;
             border: none;
             border-radius: 5px;
+            font-size: 1em;
             cursor: pointer;
+            transition: background-color 0.3s;
         }
 
         form button:hover {
-            background-color: #489bb0;
+            background-color: #555;
         }
 
         footer {
-            background-color: #000000;
+            background-color: #222;
             color: white;
             text-align: center;
-            padding: .25em;
-            position: fixed;
-            height: 10%;
-            width: 100%;
-            border-color: aqua;
-            font-size: xx-small;
-            bottom: 0;
+            padding: 1em 0.5em;
+            font-size: 0.9em;
         }
 
         footer a {
-            color: #377ed0;
+            color: #17a2b8;
             text-decoration: none;
         }
 
@@ -139,14 +186,16 @@
                     <li>Top Speed: 160 km/h</li>
                     <li>Price: Starting at ₱1,598,000</li>
                 </ul>
+                <p>The BYD Atto 3 is a sophisticated electric crossover that combines modern technology with a sleek design to offer an exceptional driving experience. It features a robust 201 horsepower electric motor, delivering 310 Nm of torque, allowing it to accelerate from 0 to 100 km/h in just 7.3 seconds. With a substantial driving range of up to 565 kilometers on a single charge, it's perfect for both city and highway driving. The interior is designed with luxury in mind, featuring a 12.8-inch rotating touchscreen infotainment system and high-quality materials. Safety is paramount, with multiple airbags, a tire pressure monitoring system, and advanced driver assistance systems (ADAS).</p>
             </article>
             <article class="model">
                 <h3>Wuling Game Boy</h3>
-                <img src="images/wuling-gameboy.webp" alt="Wuling Game Boy">
+                <img src="images/wuling-gameboy.jpg" alt="Wuling Game Boy">
                 <ul>
                     <li>Power: 40 hp</li>
                     <li>Price: Approximately ₱893,000</li>
                 </ul>
+                <p>The Wuling Game Boy is a compact electric vehicle designed for urban environments, offering a practical and economical solution for city driving. It features a 40 horsepower electric motor, providing sufficient power for daily commuting and short trips within the city. The interior is functional and straightforward, focusing on essential features and practical storage solutions. Safety features include airbags, a tire pressure monitoring system, and basic driver assistance technologies. Priced at approximately ₱893,000, the Wuling Game Boy offers a cost-effective entry into the electric vehicle market.</p>
             </article>
         </section>
         <section id="contact">
