@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the latest electric vehicle cars in Cebu. Discover the best deals and compare models including the BYD Atto 3 and Wuling Game Boy.">
+    <meta name="keywords" content="EV cars Cebu, Electric Vehicle Cars Near Cebu, BYD Atto 3, Wuling Game Boy, electric cars, EV Cebu, buy electric car Cebu, EV deals Cebu">
+    <title>Electric Vehicle Cars in Cebu | Compare BYD Atto 3 and Wuling Game Boy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #4cafaf;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        h3 {
+            color: #1a59bf;
+        }
+
+        .model {
+            background-color: white;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .model img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 0.5em;
+        }
+
+        form input, form textarea {
+            padding: 0.5em;
+            margin-top: 0.2em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            margin-top: 1em;
+            padding: 0.7em;
+            background-color: #a91d1d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #489bb0;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: .25em;
+            position: fixed;
+            height: 10%;
+            width: 100%;
+            border-color: aqua;
+            font-size: xx-small;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #377ed0;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+
+                const mailtoLink = `mailto:ev@zeldigital.com?subject=Contact Form Submission&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+
+                window.location.href = mailtoLink;
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Electric Vehicle Cars in Cebu</h1>
+        <p>Discover the latest models and best deals on electric vehicles near Cebu.</p>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Why Choose Electric Vehicles?</h2>
+            <p>Electric vehicles (EVs) are the future of transportation, offering eco-friendly and cost-efficient alternatives to traditional gasoline cars. Explore the benefits and find your perfect EV today!</p>
+        </section>
+        <section id="models">
+            <h2>Top EV Models Available in Cebu</h2>
+            <article class="model">
+                <h3>BYD Atto 3</h3>
+                <img src="images/byd-atto3.webp" alt="BYD Atto 3">
+                <ul>
+                    <li>Power: 201 hp</li>
+                    <li>Range: 420-565 km</li>
+                    <li>Top Speed: 160 km/h</li>
+                    <li>Price: Starting at ₱1,598,000</li>
+                </ul>
+            </article>
+            <article class="model">
+                <h3>Wuling Game Boy</h3>
+                <img src="images/wuling-gameboy.jpg" alt="Wuling Game Boy">
+                <ul>
+                    <li>Power: 40 hp</li>
+                    <li>Price: Approximately ₱893,000</li>
+                </ul>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to make the switch to an electric vehicle? Contact us for more information and the best deals in Cebu!</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EV Cebu. All rights reserved.</p>
+        <p>This website is powered & created by <a href="https://www.zeldigital.com" target="_blank">ZELDIGITAL.COM</a> to showcase their SEO and Marketing Capabilities in the EV Industry.</p>
+    </footer>
+</body>
+</html>
